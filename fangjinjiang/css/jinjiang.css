@@ -1,0 +1,323 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	
+}
+.container{
+	width:984px;
+	margin:0 auto;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0px;
+	line-height: 0px;
+	visibility: hidden;
+}
+
+.clearfix {
+	zoom: 1;
+	/* 为了兼容ie浏览器 */
+}
+#head_top{
+	display: inline-block;
+	height: 135px;
+	width: 100%;
+	background: #FFFFFF url(../images/topbg.jpg) no-repeat left bottom;
+	
+}
+#head_top .logo01{
+	margin: 5px 0px 0px 25px;;
+	
+	
+}
+#head_top .head_top01{
+	display: inline-block;
+	width: 417px;
+	height: 31px;
+	margin-top: 20px;
+	border-bottom: #DDDDDD 1px solid;
+}
+#head_top .head_top01 ul{
+	width: 417px;
+	height:31px;
+	 
+}
+#head_top .head_top01 ul li{
+	display: inline-block;
+	list-style: none;
+	font-size: 12px;
+	line-height: 30px;
+	background-position: left center;
+}
+#head_top .head_top01 ul .beijing_time{
+	width: 156px;
+	height: 30px;
+}
+#head_top .head_top01 ul .coloct,
+#head_top .head_top01 ul .set_homepage{
+	width: 48px;
+	height: 30px;
+	padding-left: 23px;
+	margin-left: 20px;
+}
+
+#head_top .head_top01 ul .coloct{
+	background: #FFFFFF url(../images/iconbg.jpg) no-repeat 0px 6px;
+}
+#head_top .head_top01 ul .set_homepage{
+	background: #FFFFFF url(../images/iconbg.jpg) no-repeat 0px -36px;
+}
+#head_top .head_top01 ul .set_words{
+	width: 36px;
+	height: 30px;
+	padding-left:23px ;
+	margin-left: 20px;
+	background: #FFFFFF url(../images/iconbg.jpg) no-repeat 0px -74px;
+}
+#head_top .head_top01 ul li a{
+	text-decoration: none;
+	color: #666666;
+}
+#head_top .head_top01 ul li a:hover{
+	color: #000000;
+}
+#head_top .login{
+	display: inline-block;
+	width: 288px;
+	height: 22px;
+	padding-left: 6px;
+	position: relative;
+    top: -80px;
+}
+#head_top .login a{
+	text-decoration: none;
+	color: #666666;
+	font-size: 12px;
+	display: inline-block;
+	margin-right: 32px ;
+}
+#head_top .login a:hover{
+	color: #000000;
+}
+.backgroung_big{
+	background: url(../images/mainbg.jpg) no-repeat 0px -2px;
+}
+#head_next{
+	margin-top:-4px;
+}
+#head_next a{
+	display: inline-block;
+	margin:0px 0px 0px 6px;
+}
+
+#main_box{
+	display: inline-block;
+	width: 924px;
+	height: 372px;
+	margin-top: -1px;
+	padding: 0px 30px 30px 30px;
+	
+}
+#main_box ul{
+	width: 924px;
+	height: 46px;
+}
+#main_box ul li{
+	width: 206px;
+    height: 46px;
+    display: inline-block;
+	list-style: none;
+	margin-left: 15px;
+}
+
+
+#main_box ul li a.yanqing{
+	display: inline-block;
+	width: 206px;
+	height: 46px;   
+	text-decoration: none;
+	background: url(../images/button_01.jpg) no-repeat 0px 0px;	
+}
+#main_box ul li a.yanqing:hover{
+	background: url(../images/button_01.jpg) no-repeat 0px -46px;
+}
+#main_box ul li a.chunai{
+	display: inline-block;
+	width: 206px;
+	height: 46px;   
+	text-decoration: none;
+	background: url(../images/button_03.jpg) no-repeat 0px 0px;	
+}
+#main_box ul li a.chunai:hover{
+	background: url(../images/button_03.jpg) no-repeat 0px -46px;
+}
+#main_box ul li a.tongren{
+	display: inline-block;
+	width: 206px;
+	height: 46px;   
+	text-decoration: none;
+	background: url(../images/button_04.jpg) no-repeat 0px 0px;	
+}
+#main_box ul li a.tongren:hover{
+	background: url(../images/button_04.jpg) no-repeat 0px -46px;
+}
+#main_box ul li a.yuanchuang{
+	display: inline-block;
+	width: 206px;
+	height: 46px;   
+	text-decoration: none;
+	background: url(../images/button_02.jpg) no-repeat 0px 0px;	
+}
+#main_box ul li a.yuanchuang:hover{
+	background: url(../images/button_02.jpg) no-repeat 0px -46px;	
+}
+.concent_list{
+	display: inline-block;
+	width: 206px;
+	height: 264px;
+	padding: 8px 0px;
+	background: url(../images/indexListBg.gif) no-repeat;
+	margin-left: 15px;
+}
+#main_box .concent_list ul{
+	display: inline-block;
+	width: 206px;
+	height: 264px;
+	float: left;
+	
+}
+#main_box .concent_list ul.ul1 li{
+	width: 188px;
+	height: 22px;
+	font-size: 12px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 0px;
+	background: url(../images/youjian.gif) no-repeat 10px 6px;
+}
+#main_box .concent_list ul.ul1 li a{
+	text-decoration: none;
+	color: #333333;
+}
+#main_box .concent_list ul.ul1 li a:hover{
+	color: #000000;
+}
+#main_box .concent_list ul.ul2 li{
+	float: left;
+	font-family: "宋体";
+}
+#main_box .concent_list ul.ul2 li a{
+	color: #390;
+    font-size: 14px;
+    padding-bottom: 5px;
+	text-decoration: none;
+	font-weight: 700;
+	float: left;
+	margin-left: -2px;
+	
+}
+#main_box .concent_list ul.ul2 li span{
+	display: block;
+	width: 186px;
+	height: 176px;
+	font-size: 12px;
+	color: #000000;
+	line-height: 22px;
+	float: left;
+	margin-left: -2px;
+}
+
+
+
+
+
+
+#main_box .btn{
+	position: relative;
+	top: -4px;
+}
+
+
+#main_box .btn .wanjie{
+	display: inline-block;
+	width: 206px;
+	height: 46px;   
+	text-decoration: none;
+	background: url(../images/button_05.jpg) no-repeat 0px 0px;	
+}
+#main_box .btn .wanjie:hover{
+	background: url(../images/button_05.jpg) no-repeat 0px -46px;
+}
+
+#main_box .btn .chuban{
+	display: inline-block;
+	width: 206px;
+	height: 46px;   
+	text-decoration: none;
+	background: url(../images/button_06.jpg) no-repeat 0px 0px;	
+}
+#main_box .btn .chuban:hover{
+	background: url(../images/button_06.jpg) no-repeat 0px -46px;		
+}
+
+#main_box .btn .youxi{
+	display: inline-block;
+	width: 206px;
+	height: 46px;   
+	text-decoration: none;
+	background: url(../images/button_07.jpg) no-repeat 0px 0px;	
+}
+#main_box .btn .youxi:hover{
+	background: url(../images/button_07.jpg) no-repeat 0px -46px;	
+	
+}
+#main_box .btn .luntan{
+	display: inline-block;
+	width: 206px;
+	height: 46px;   
+	text-decoration: none;
+	background: url(../images/button_08.jpg) no-repeat 0px 0px;	
+}
+#main_box .btn .luntan:hover{
+	background: url(../images/button_08.jpg) no-repeat 0px -46px;	
+	
+}
+
+#bottom_box p{
+	font-size: 12px;
+	color: #ff0000;
+	text-align: center;
+	height: 22px;
+	line-height: 22px;
+}
+#bottom_box p a{
+	font-size: 12px;
+	color: #ff0000;
+	text-decoration: none;
+}
+
+#bottom_box .jing{
+	height: 32px;
+	
+}
+
+#bottom_box .jing,
+#bottom_box .jing a{
+	color: #666666;
+	
+}
+#bottom_box .jing a:hover{
+	color: #333;
+}
+
+.kexin{
+	width: 70px;
+}
